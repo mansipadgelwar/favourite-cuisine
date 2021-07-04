@@ -90,9 +90,11 @@ export default function App() {
               style={{
                 padding: "1rem",
                 border: "2px solid black",
-                width: "60%",
+                width: "50%",
                 margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                borderRadius: "0.5rem",
+                marginLeft: "auto",
+                marginRight: "auto"
               }}
             >
               <div> {dish.name} </div>
