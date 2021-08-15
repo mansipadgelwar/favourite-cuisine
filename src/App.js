@@ -109,9 +109,10 @@ export default function App() {
                 padding: "1rem",
                 border: "2px solid black",
                 width: "50%",
-                margin: "1rem 1rem",
                 borderRadius: "0.5rem",
-                fontWeight: "bold"
+                fontWeight: "bold",
+                margin: "auto",
+                marginTop: "2rem"
               }}
             >
               <div>Dish Name: {dish.name} </div>
